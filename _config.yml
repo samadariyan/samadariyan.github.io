@@ -1,7 +1,7 @@
 # Site settings
-title: The Minimum Viable Model
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
-permalink: ':title:output_ext'
+title: Samad's Personal Blog
+description: "Artificial Intelligence trends and concepts made easy." # this means to ignore newlines until "baseurl:"
+permalink: ":title:output_ext"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://the-mvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/MVM-logo-full.svg"
@@ -34,7 +34,7 @@ phone: # Add your Phone number
 website: https://amaynez.github.io # Add your website
 linkedin: amaynez # Add your Linkedin handle
 github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
+twitter: "@MvmThe" # Add your Twitter handle
 bandcamp: armandomaynez # Add your Bandcamp username
 stackoverflow: stackoverflow # Add your stackoverflow account
 
@@ -47,14 +47,14 @@ fbadmin: ar.maybach
 
 # Paginate
 paginate: 6
-paginate_path: 'page:num'
+paginate_path: "page:num"
 words_per_minute: 200
 
 extensions:
   mermaid_enable: true
 
 # Comments
-comments: utteranc  #[disqus, utteranc]
+comments: utteranc #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
   repo: # The GitHub repo URL.  https://utteranc.es/
@@ -89,4 +89,12 @@ plugins:
   - jekyll-sitemap
 
 include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+exclude:
+  [
+    "node_modules",
+    "gulpfile.js",
+    "package.json",
+    "yarn.lock",
+    "package-lock.json",
+    "assets/css/sass/",
+  ]
