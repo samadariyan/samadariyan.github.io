@@ -12,6 +12,7 @@
    ========================================================================== */
 
 html {
+  font-family: "Open Sans", sans-serif;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -253,4 +254,3 @@ svg {
 header ul {
   list-style: none;
 }
-
