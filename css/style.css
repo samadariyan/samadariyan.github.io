@@ -253,13 +253,14 @@ header {
 header h1.site-title {
   text-align: center;
   font-weight: 700;
-  /* font-variation-settings: "wght" 600; */
+  font-size: 1.2em;
 }
 
 .desktop-header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 header ul {
@@ -269,4 +270,16 @@ header ul {
 svg {
   width: 75px;
   max-height: 75px;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+}
+
+.desktop-logo,
+.tablet-logo,
+.desltop-menu,
+.mobile-menu {
+  display: none;
 }
