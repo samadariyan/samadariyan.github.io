@@ -281,6 +281,7 @@ header ul {
 svg {
   width: 50px;
   max-height: 50px;
+   padding: 1rem;
 }
 
 header button {
