@@ -70,8 +70,8 @@ header button {
 }
 
 main {
-  background: #e7f8f7;
-  height: 85vh;
+  background: #faffff;
+  min-height: 85vh;
   padding: 1rem;
 }
 
