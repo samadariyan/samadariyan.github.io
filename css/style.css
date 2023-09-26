@@ -20,12 +20,9 @@
 html {
   font-family: "Open Sans", sans-serif;
   color: #222;
-  font-size: 1em;
-  line-height: 1.4;
 }
 
 body {
-
   margin: 0;
   padding: 0;
 }
@@ -36,20 +33,20 @@ body {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+/* ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
-}
+} */
 
-::selection {
+/* ::selection {
   background: #b3d4fc;
   text-shadow: none;
-}
+} */
 
 /*
  * A better looking default horizontal rule
  */
-
+/* 
 hr {
   display: block;
   height: 1px;
@@ -57,7 +54,7 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-}
+} */
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -65,32 +62,32 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
+/* audio,
 canvas,
 iframe,
 img,
 svg,
 video {
   vertical-align: middle;
-}
+} */
 
 /*
  * Remove default fieldset styles.
  */
 
-fieldset {
+/* fieldset {
   border: 0;
   margin: 0;
   padding: 0;
-}
+} */
 
 /*
  * Allow only vertical resizing of textareas.
  */
-
+/* 
 textarea {
   resize: vertical;
-}
+} */
 
 /* ==========================================================================
    Author's custom styles
@@ -104,10 +101,10 @@ textarea {
  * Hide visually and from screen readers
  */
 
-.hidden,
+/* .hidden,
 [hidden] {
   display: none !important;
-}
+} */
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -118,7 +115,7 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.visually-hidden {
+/* .visually-hidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -129,7 +126,6 @@ textarea {
   white-space: nowrap;
   width: 1px;
   /* 1 */
-}
 
 /*
  * Extends the .visually-hidden class to allow the element
@@ -137,7 +133,7 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.visually-hidden.focusable:active,
+/* .visually-hidden.focusable:active,
 .visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -146,15 +142,15 @@ textarea {
   position: static;
   white-space: inherit;
   width: auto;
-}
+} */
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+/* .invisible {
   visibility: hidden;
-}
+} */
 
 /*
  * Clearfix: contain floats
@@ -163,7 +159,7 @@ textarea {
  * `::before` to contain the top-margins of child elements.
  */
 
-.clearfix::before,
+/* .clearfix::before,
 .clearfix::after {
   content: "";
   display: table;
@@ -171,7 +167,7 @@ textarea {
 
 .clearfix::after {
   clear: both;
-}
+} */
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -179,16 +175,17 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+/* @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-}
+/* }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
-}
+/* } */
+*/ */
 
 /* ==========================================================================
    Print styles.
@@ -196,93 +193,99 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+/* @media print {
   *,
   *::before,
   *::after {
     background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
-    box-shadow: none !important;
+    /* box-shadow: none !important;
     text-shadow: none !important;
-  }
+  } */ */
 
-  a,
+  /* a,
   a:visited {
     text-decoration: underline;
-  }
+  } */
 
-  a[href]::after {
+  /* a[href]::after {
     content: " (" attr(href) ")";
-  }
+  } */
 
-  abbr[title]::after {
+  /* abbr[title]::after {
     content: " (" attr(title) ")";
-  }
+  } */
 
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
+  /* a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
-  }
+  } */
 
-  pre {
+  /* pre {
     white-space: pre-wrap !important;
-  }
+  } */
 
-  pre,
+  /* pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
-  }
+  } */
 
-  tr,
+  /* tr,
   img {
     page-break-inside: avoid;
-  }
+  } */
 
-  p,
+  /* p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
-  }
+  } */
 
-  h2,
+  /* h2,
   h3 {
     page-break-after: avoid;
-  }
+  } */
+/* } */
+
+.site-header {
+  background: #fcb3c0;
+  height: 100px;
+  width: 100vw;
+  padding: 10px;
 }
 
-header {
-  background: #b3d4fc;
-   height: 6rem;
+header .wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
-
 header h1.site-title {
   text-align: center;
   font-weight: 700;
   font-size: 1.2em;
+  flex-grow: 1;
+}
+header .logo {
+  height: 70px;
+  width: 70px;
 }
 
-.desktop-header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+svg {
+  width: 100%;
+  max-height: 100%;
 }
 
 header ul {
   list-style: none;
-}
-
-svg {
-  width: 2.6rem;
-  max-height: 2.6rem;
-   padding: 1rem;
 }
 
 header button {
@@ -298,8 +301,8 @@ header button {
 }
 
 main {
-     background: #e7f8f7;
-  height: 80vh;
+  background: #e7f8f7;
+  height: 85vh;
 }
 
 footer {
@@ -307,5 +310,11 @@ footer {
 }
 
 h2 {
-   margin: 0;
+  margin: 0;
+}
+
+header .humerger-button {
+  height: 60px;
+  width: 60px;
+  padding-right: 1rem;
 }
