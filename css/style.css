@@ -11,6 +11,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Open Sans", sans-serif;
   color: #222;
@@ -18,6 +24,11 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background: #e7f8f7;
+  margin: 0;
+  padding: 0;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -282,4 +293,12 @@ header button {
 .desltop-menu,
 .mobile-menu {
   display: none;
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  background: #b3d4fc;
 }
