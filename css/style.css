@@ -246,11 +246,6 @@ textarea {
   }
 }
 
-svg {
-  max-width: 75px;
-  max-height: 75px;
-}
-
 header {
   background: #b3d4fc;
 }
@@ -263,8 +258,15 @@ header h1.site-title {
 
 .desktop-header {
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 header ul {
   list-style: none;
+}
+
+svg {
+  width: 75px;
+  max-height: 75px;
 }
