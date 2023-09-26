@@ -250,14 +250,19 @@ svg {
   max-width: 75px;
   max-height: 75px;
 }
+
+header {
+  background: #b3d4fc;
+}
+
 header h1.site-title {
   text-align: center;
-  font-weight: 600;
-  font-variation-settings: "wght" 600;
+  font-weight: 700;
+  /* font-variation-settings: "wght" 600; */
 }
+
 .desktop-header {
   display: flex;
-  background: #b3d4fc;
 }
 
 header ul {
