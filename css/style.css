@@ -259,6 +259,7 @@ textarea {
 
 header {
   background: #b3d4fc;
+   height: 6rem;
 }
 
 header h1.site-title {
@@ -279,8 +280,8 @@ header ul {
 }
 
 svg {
-  width: 2rem;
-  max-height: 2rem;
+  width: 2.6rem;
+  max-height: 2.6rem;
    padding: 1rem;
 }
 
