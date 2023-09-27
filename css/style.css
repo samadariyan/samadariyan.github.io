@@ -14,6 +14,13 @@ body {
   padding: 0;
 }
 
+svg {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+  vertical-align: center;
+}
+
 header.site-header {
   background: #d1e6ff;
   padding: 10px;
@@ -48,7 +55,7 @@ header h1.site-title {
   padding-right: 1rem;
 }
 
-svg {
+header svg {
   width: 100%;
   height: 100%;
 }
@@ -60,6 +67,7 @@ header ul {
 header button {
   background-color: transparent;
   border: none;
+  color: inherit;
 }
 
 .desktop-logo,
