@@ -1,1 +1,1 @@
-# Triyng First Website With HTML, CSS & JavaScript.
+# Triyng First Website With Next-js.
