@@ -1,1 +1,1 @@
-# Triyng First Website With Next-js.
+# Trying My First Website With Next-js.
